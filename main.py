@@ -28,4 +28,4 @@ for i in range(height):
         z += 1
 cv2.imshow('Decrypted', dec_img)
 cv2.waitKey(0)
-cv2.imwrite("C:/Users/adroi/Downloads", dec_img)
+cv2.imwrite("Path to save the Decrypted File", dec_img)
